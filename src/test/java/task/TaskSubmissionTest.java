@@ -28,8 +28,4 @@ public class TaskSubmissionTest {
         assertFalse(result);
     }
     
-    @Test
-    public void testFailOnPurpose() {
-        assertTrue("Intentional failure for CI screenshot", false);
-    }
 }
