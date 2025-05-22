@@ -27,4 +27,9 @@ public class TaskSubmissionTest {
         boolean result = submission.submitTask("S123", "Task_1", 3, "");
         assertFalse(result);
     }
+    
+    @Test
+    public void testFailOnPurpose() {
+        assertTrue("Intentional failure for CI screenshot", false);
+    }
 }
